@@ -1,6 +1,5 @@
 # https://leetcode.com/problems/longest-substring-without-repeating-characters
-# Runtime: 92 ms, faster than 37.17% of Python3 online submissions for Longest Substring Without Repeating Characters.
-
+# Runtime: 88 ms, faster than 40.90% of Python3 online submissions for Longest Substring Without Repeating Characters.
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
