@@ -1,11 +1,11 @@
 def minimumAbsDifference(arr):
     arr.sort()
-    minimum = arr[1] - arr[0]
-    for i in range(1, len(arr) - 1):
-        minimum = min(minimum, arr[i+1] - arr[i])
+    minimum = float('inf')
     final = []
-    for i in range(len(arr) - 1):
-        if arr[i+1] - arr[i] == minimum:
-            final.append([arr[i],arr[i+1]])
+    for i, n in enumerate(arr[:-1]):
+        if (arr[i + 1] - n) <= minimum:
+            if (arr[i + 1] - n) < minimum:
+                final = []
+                minimum = arr[i + 1] - n
+            final.append([n, arr[i+1]])
     return final
-
