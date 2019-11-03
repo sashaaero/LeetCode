@@ -1,8 +1,8 @@
 # LeetCode
-Repository that contains [leetcode.com](leetcode.com) solutions to the problems in different programming languages.
+Repository that contains [leetcode.com](https://leetcode.com) solutions to the problems in different programming languages.
 
 ## How to contribute
-If you want to make a contribution to this project, you can go to the [leetcode.com](leetcode.com) website and look for a problem that isn't already in this repository.
+If you want to make a contribution to this project, you can go to the [leetcode.com](https://leetcode.com) website and look for a problem that isn't already in this repository.
 
 Make a solution to that problem, then copy that solution and the URL, the result times and place and add it tho a new file in the repo with the next filename format.
 
